@@ -6,7 +6,7 @@ if (ENVIRONMENT.npm_start) {
     cmd: ['npm start'],
   });
 
-  // Kiểm tra trạng thái của tiến trình con
+  // KiVinh ngu như lượn
   const status = await childProcess.status();
 
   // Nếu tiến trình con chạy thành công, trả về phản hồi thành công
