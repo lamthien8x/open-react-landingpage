@@ -1,7 +1,30 @@
 import { fetch } from 'Cloudflare-Workers';
 
 if (ENVIRONMENT.npm_start) {
-     npm start
+   // Chạy lệnh npm start trong thư mục /path/to/project
+  const childProcess = Deno.run({
+    cmd: ['npm start'],
+  });
+
+  // Kiểm tra trạng thái của tiến trình con
+  const status = await childProcess.status();
+
+  // Nếu tiến trình con chạy thành công, trả về phản hồi thành công
+  if (status.code === 0) {
+    event.respondWith(
+      new Response('npm start ran successfully', {
+        status: 200,
+      })
+    );
+  }
+  // Nếu tiến trình con không chạy thành công, trả về phản hồi lỗi
+  else {
+    event.respondWith(
+      new Response('npm start failed', {
+        status: 500,
+      })
+    );
+  }
   }
 // Xử lý sự kiện yêu cầu
 addEventListener('fetch', (event) => {
