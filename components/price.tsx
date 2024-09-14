@@ -88,7 +88,7 @@ export default function PricingTable() {
         <PricingTab
         //   yearly={yearly}
           planName="Gói 1 Tháng"
-          price={{ yearly: '100.000 ', monthly: '35' }}
+          price={{ yearly: '100.000 ', monthly: '100.000' }}
           planDescription="There are many variations available, but the majority have suffered."
           features={[
             'Unlimited placeholder texts',
@@ -102,7 +102,7 @@ export default function PricingTable() {
         //   yearly={yearly} 
           popular={true}
           planName="Gói 1 Năm"
-          price={{ yearly: '70.000', monthly: '85' }}
+          price={{ yearly: '70.000', monthly: '70.000' }}
           planDescription="There are many variations available, but the majority have suffered."
           features={[
             'Unlimited placeholder texts',
@@ -115,7 +115,7 @@ export default function PricingTable() {
         <PricingTab
         //   yearly={yearly}
           planName="Gói 6 Tháng"
-          price={{ yearly: '85.000', monthly: '55' }}
+          price={{ yearly: '85.000', monthly: '85.000' }}
           planDescription="There are many variations available, but the majority have suffered."
           features={[
             'Unlimited placeholder texts',
