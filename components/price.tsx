@@ -3,7 +3,7 @@ import { useState } from "react"
 
 
 interface PricingTabProps {
-  yearly: boolean
+//   yearly: boolean
   popular?: boolean
   planName: string
   price: {
@@ -27,8 +27,8 @@ function PricingTab(props: PricingTabProps) {
           <div className="text-slate-900 dark:text-slate-200 font-semibold mb-1">{props.planName}</div>
           <div className="inline-flex items-baseline mb-2">
             {/* <span className="text-slate-900 dark:text-slate-200 font-bold text-3xl">$</span> */}
-            <span className="text-slate-900 dark:text-slate-200 font-bold text-4xl">{props.yearly ? props.price.yearly : props.price.monthly}</span>
-            <span className="text-slate-500 font-medium"> vnđ/tháng</span>
+            <span className="text-slate-900 dark:text-slate-200 font-bold text-4xl">{props.price.monthly}</span>
+            <span className="text-slate-500 font-medium">vnđ/tháng</span>
           </div>
           {/* <div className="text-sm text-slate-500 mb-5">{props.planDescription}</div>
           <a className="w-full inline-flex justify-center whitespace-nowrap rounded-lg bg-indigo-500 px-3.5 py-2.5 text-sm font-medium text-white shadow-sm shadow-indigo-950/10 hover:bg-indigo-600 focus-visible:outline-none focus-visible:ring focus-visible:ring-indigo-300 dark:focus-visible:ring-slate-600 transition-colors duration-150" href="#0">
@@ -54,7 +54,7 @@ function PricingTab(props: PricingTabProps) {
 }
 
 export default function PricingTable() {
-  const [yearly, setYearly] = useState<boolean>(true)
+//   const [yearly, setYearly] = useState<boolean>(true)
 
   return (
     <div>
@@ -82,11 +82,11 @@ export default function PricingTable() {
         </div>
       </div> */}
 
-      <div className="max-w-sm mx-auto grid gap-6 lg:grid-cols-3 items-start lg:max-w-none max-w-6xl px-4 sm:px-8">
+      <div className="max-w-sm mx-auto grid gap-6 lg:grid-cols-3 items-start lg:max-w-none max-w-xl px-4 sm:px-8">
 
         {/* Pricing tab 1 */}
         <PricingTab
-          yearly={yearly}
+        //   yearly={yearly}
           planName="Gói 1 Tháng"
           price={{ yearly: '100.000 ', monthly: '35' }}
           planDescription="There are many variations available, but the majority have suffered."
@@ -99,7 +99,8 @@ export default function PricingTable() {
 
         {/* Pricing tab 2 */}
         <PricingTab
-          yearly={yearly} popular={true}
+        //   yearly={yearly} 
+          popular={true}
           planName="Gói 1 Năm"
           price={{ yearly: '70.000', monthly: '85' }}
           planDescription="There are many variations available, but the majority have suffered."
@@ -112,8 +113,7 @@ export default function PricingTable() {
             'Free from repetition',
           ]} />
         <PricingTab
-          yearly={yearly}
-         
+        //   yearly={yearly}
           planName="Gói 6 Tháng"
           price={{ yearly: '85.000', monthly: '55' }}
           planDescription="There are many variations available, but the majority have suffered."
