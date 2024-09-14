@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Home - Open PRO",
-  description: "Page description",
+  title: "AutoPost - Appfusion",
+  description: "Công cụ giúp tạo bài viết và lên bài tự động, giảm 90% công sức xây dựng website",
 };
 
 import PageIllustration from "@/components/page-illustration";
@@ -17,7 +17,7 @@ export default function Home() {
       <Hero />
       <Workflows />
       <Features />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Cta />
     </>
   );
