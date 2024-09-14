@@ -117,7 +117,16 @@ export default function ModalVideo({
               transition
               className="aspect-video max-h-full w-full overflow-hidden rounded-2xl bg-black shadow-2xl duration-300 ease-out data-[closed]:scale-95 data-[closed]:opacity-0"
             >
-            <iframe width="1280" height="720" src="https://www.youtube.com/embed/2oqLqbB4Uck?si=MhRe8iXU8s29Xmt9" title="DEMO AutoPost" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                 <video
+                ref={videoRef}
+                width={videoWidth}
+                height={videoHeight}
+                loop
+                controls
+              >
+                <source src={video} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </DialogPanel>
           </div>
         </div>
