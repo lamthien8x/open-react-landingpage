@@ -9,6 +9,7 @@ import Workflows from "@/components/workflows";
 import Features from "@/components/features";
 import Testimonials from "@/components/testimonials";
 import Cta from "@/components/cta";
+import PricingTab from "@/components/price";
 
 export default function Home() {
   return (
@@ -18,6 +19,10 @@ export default function Home() {
       <Workflows />
       <Features />
       {/* <Testimonials /> */}
+      <PricingTab yearly={false} planName={""} price={{
+        monthly: 100000,
+        yearly: 800000,
+      }} planDescription={""} features={[]}/>
       <Cta />
     </>
   );
