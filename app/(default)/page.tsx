@@ -19,10 +19,7 @@ export default function Home() {
       <Workflows />
       <Features />
       {/* <Testimonials /> */}
-      <PricingTab yearly={false} planName={""} price={{
-        monthly: 100000,
-        yearly: 800000,
-      }} planDescription={""} features={[]}/>
+      <PricingTab />
       <Cta />
     </>
   );
