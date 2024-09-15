@@ -88,13 +88,15 @@ export default function PricingTable() {
         <PricingTab
         //   yearly={yearly}
           planName="Gói 1 Tháng"
-          price={{ yearly: '100.000 ', monthly: '100.000' }}
+          price={{ yearly: '100.000 ', monthly: '99.000' }}
           planDescription="There are many variations available, but the majority have suffered."
           features={[
-            'Unlimited placeholder texts',
-            'Consectetur adipiscing elit',
-            'Excepteur sint occaecat cupidatat',
-            'Officia deserunt mollit anim',
+            'Không giới hạn bài viết',
+            '10 task chạy mỗi ngày ',
+            'Tự động đăng, tự động chạy',
+            'Giao diện thân thiện',
+
+            'Hỗ trợ 1 website',
           ]} />
 
         {/* Pricing tab 2 */}
@@ -102,27 +104,27 @@ export default function PricingTable() {
         //   yearly={yearly} 
           popular={true}
           planName="Gói 1 Năm"
-          price={{ yearly: '70.000', monthly: '70.000' }}
+          price={{ yearly: '70.000', monthly: '69.000' }}
           planDescription="There are many variations available, but the majority have suffered."
           features={[
-            'Unlimited placeholder texts',
-            'Consectetur adipiscing elit',
-            'Excepteur sint occaecat cupidatat',
-            'Officia deserunt mollit anim',
-            'Predefined chunks as necessary',
-            'Free from repetition',
+            'Không giới hạn bài viết',
+            '10 task chạy mỗi ngày ',
+            'Tự động đăng, tự động chạy',
+            'Giao diện nâng cao',
+            'Hỗ trợ 10 website',
+            'Ưu tiên hỗ trợ 24/7 với đội ngũ',
           ]} />
         <PricingTab
         //   yearly={yearly}
           planName="Gói 6 Tháng"
-          price={{ yearly: '85.000', monthly: '85.000' }}
+          price={{ yearly: '85.000', monthly: '89.000' }}
           planDescription="There are many variations available, but the majority have suffered."
           features={[
-            'Unlimited placeholder texts',
-            'Consectetur adipiscing elit',
-            'Excepteur sint occaecat cupidatat',
-            'Officia deserunt mollit anim',
-            'Predefined chunks as necessary',
+            'Không giới hạn bài viết',
+            '10 task chạy mỗi ngày ',
+            'Tự động đăng, tự động chạy',
+            'Giao diện nâng cao',
+            'Hỗ trợ 5 website',
           ]} />
 
         {/* Pricing tab 3 */}
