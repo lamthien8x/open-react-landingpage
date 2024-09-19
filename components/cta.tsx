@@ -32,7 +32,7 @@ export default function Cta() {
                   href="https://autopost.appfusion.tech"
                 >
                   <span className="relative inline-flex items-center">
-                    Đăng ký trải nghiệm
+                    Dùng thử miễn phí
                     <span className="ml-1 tracking-normal text-white/50 transition-transform group-hover:translate-x-0.5">
                       -&gt;
                     </span>
