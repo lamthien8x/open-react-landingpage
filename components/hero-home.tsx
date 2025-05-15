@@ -13,7 +13,7 @@ export default function HeroHome() {
               className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-5xl"
               data-aos="fade-up"
             >
-              Giảm 99% công sức xây web
+              Giảm 50% ngân sách quảng cáo 
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
@@ -21,7 +21,7 @@ export default function HeroHome() {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                Công cụ tự động giúp bạn viết bài và đăng bài tự động.
+                Vắn tắt là: chúng tôi chạy ra kết quả rồi mới tính tiền.
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay={400}>
