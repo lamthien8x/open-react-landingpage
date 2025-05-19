@@ -76,22 +76,22 @@ export default function Footer() {
           </div>
           {/* 2nd block */}
           <div className="space-y-2">
-            <h3 className="text-sm font-medium text-gray-200">Thông tin</h3>
+            <h3 className="text-sm font-medium text-gray-200">Project</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
+                  href="https://play.google.com/store/apps/details?id=com.attorney.ai.assistant&hl=vi"
                 >
-                  Về chúng tôi
+                  AI Lawyer
                 </a>
               </li>
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
+                  href="https://chutinland.com"
                 >
-                  Diversity &amp; Inclusion
+                  Chữ Tín &amp; Land
                 </a>
               </li>
               <li>

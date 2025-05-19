@@ -29,7 +29,7 @@ const testimonials = [
     name: "Như Ý",
     company: "Marketer",
     content:
-      "As a content creator, I was always on the lookout for a tool that could help me keep up with the demand. The AI-driven content tool has been a game-changer. It generates high-quality content in a fraction of the time it used to take me.",
+      "Năng động và tích cực là những tính từ mô tả chính xác nhất về Như Ý. Luôn là người cầu thị những chiến lược marketing mới nhất và hiệu quả nhất. Như Ý đã giúp chúng tôi xây dựng nhiều chiến dịch truyền thông thành công rực rỡ.",
     categories: [1, 3, 5],
   },
   {
@@ -119,7 +119,7 @@ export default function Testimonials() {
            ĐỘI NGŨ CỦA CHÚNG TÔI
           </h2>
           <p className="text-lg text-indigo-200/65">
-            Những thanh viên tâm huyết đã giúp chúng tôi xây dựng nên AutoPost
+            Những thành viên tâm huyết đã giúp chúng tôi xây dựng nên AutoPost
           </p>
         </div>
 
