@@ -18,8 +18,8 @@ export default function Home() {
       <Hero />
       <Workflows />
       <Features />
-      {/* <Testimonials /> */}
-      <PricingTab />
+       <Testimonials />
+      {/* <PricingTab /> */}
       <Cta />
     </>
   );
